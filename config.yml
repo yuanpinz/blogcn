@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "品斯基的博客"
+    Content: "Hi there \U0001F44B"
 
   socialIcons:
     - name: twitter
@@ -115,16 +115,16 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: 目录
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: 标签
       url: /tags/
       weight: 20
     - identifier: example
-      name: example.org
-      url: https://example.org
+      name: 知乎
+      url: https://www.zhihu.com/people/zhouyp6
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
